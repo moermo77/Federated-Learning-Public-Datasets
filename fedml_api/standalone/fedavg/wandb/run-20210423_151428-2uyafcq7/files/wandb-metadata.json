@@ -1,0 +1,24 @@
+{
+    "os": "Windows-10-10.0.18362-SP0",
+    "python": "3.7.10",
+    "heartbeatAt": "2021-04-23T07:14:33.359269",
+    "startedAt": "2021-04-23T07:14:28.726092",
+    "docker": null,
+    "gpu": "NVIDIA GeForce GTX 1050 Ti",
+    "gpu_count": 1,
+    "cpu_count": 8,
+    "cuda": null,
+    "args": [],
+    "state": "running",
+    "program": "C:/Users/97101/Desktop/Experiment/Experiment/fedml_api/standalone/fedavg/111.py",
+    "codePath": "fedml_api\\standalone\\fedavg\\111.py",
+    "git": {
+        "remote": "https://github.com/MrYYYYYYYYYYY/federate_experiment.git",
+        "commit": "1c5b33e5a82a488bf200469d6624087758f36006"
+    },
+    "email": null,
+    "root": "C:/Users/97101/Desktop/Experiment/Experiment",
+    "host": "LAPTOP-TD1C05FD",
+    "username": "97101",
+    "executable": "E:\\a\\envs\\pytorch\\python.exe"
+}

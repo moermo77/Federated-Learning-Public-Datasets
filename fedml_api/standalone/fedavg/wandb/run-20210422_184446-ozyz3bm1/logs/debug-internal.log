@@ -1,0 +1,42 @@
+2021-04-22 18:44:47,845 INFO    MainThread:15848 [internal.py:wandb_internal():91] W&B internal server running at pid: 15848, started at: 2021-04-22 18:44:47.839473
+2021-04-22 18:44:47,847 INFO    WriterThread:15848 [datastore.py:open_for_write():77] open: C:\Users\97101\Desktop\Experiment\Experiment\fedml_api\standalone\fedavg\wandb\run-20210422_184446-ozyz3bm1\run-ozyz3bm1.wandb
+2021-04-22 18:44:47,848 DEBUG   HandlerThread:15848 [handler.py:handle_request():120] handle_request: check_version
+2021-04-22 18:44:47,852 DEBUG   SenderThread:15848 [sender.py:send():160] send: header
+2021-04-22 18:44:47,852 DEBUG   SenderThread:15848 [sender.py:send():160] send: request
+2021-04-22 18:44:47,852 DEBUG   SenderThread:15848 [sender.py:send_request():169] send_request: check_version
+2021-04-22 18:44:48,047 DEBUG   SenderThread:15848 [sender.py:send():160] send: run
+2021-04-22 18:44:48,645 INFO    SenderThread:15848 [sender.py:_start_run_threads():654] run started: ozyz3bm1 with start time 1619088286
+2021-04-22 18:44:48,645 DEBUG   SenderThread:15848 [sender.py:send():160] send: summary
+2021-04-22 18:44:48,646 INFO    SenderThread:15848 [sender.py:_save_file():781] saving file wandb-summary.json with policy end
+2021-04-22 18:44:48,647 DEBUG   HandlerThread:15848 [handler.py:handle_request():120] handle_request: run_start
+2021-04-22 18:44:49,475 DEBUG   HandlerThread:15848 [meta.py:__init__():34] meta init
+2021-04-22 18:44:49,476 DEBUG   HandlerThread:15848 [meta.py:__init__():48] meta init done
+2021-04-22 18:44:49,476 DEBUG   HandlerThread:15848 [meta.py:probe():190] probe
+2021-04-22 18:44:49,490 DEBUG   HandlerThread:15848 [meta.py:_setup_git():180] setup git
+2021-04-22 18:44:49,707 DEBUG   HandlerThread:15848 [meta.py:_setup_git():187] setup git done
+2021-04-22 18:44:49,707 DEBUG   HandlerThread:15848 [meta.py:_save_pip():52] save pip
+2021-04-22 18:44:49,708 DEBUG   HandlerThread:15848 [meta.py:_save_pip():66] save pip done
+2021-04-22 18:44:49,708 DEBUG   HandlerThread:15848 [meta.py:probe():231] probe done
+2021-04-22 18:44:49,734 DEBUG   SenderThread:15848 [sender.py:send():160] send: files
+2021-04-22 18:44:49,735 INFO    SenderThread:15848 [sender.py:_save_file():781] saving file wandb-metadata.json with policy now
+2021-04-22 18:44:49,747 DEBUG   HandlerThread:15848 [handler.py:handle_request():120] handle_request: status
+2021-04-22 18:44:49,748 DEBUG   SenderThread:15848 [sender.py:send():160] send: request
+2021-04-22 18:44:49,748 DEBUG   SenderThread:15848 [sender.py:send_request():169] send_request: status
+2021-04-22 18:44:53,510 DEBUG   SenderThread:15848 [sender.py:send():160] send: history
+2021-04-22 18:44:53,511 DEBUG   SenderThread:15848 [sender.py:send():160] send: summary
+2021-04-22 18:44:53,513 INFO    SenderThread:15848 [sender.py:_save_file():781] saving file wandb-summary.json with policy end
+2021-04-22 18:44:53,513 DEBUG   SenderThread:15848 [sender.py:send():160] send: history
+2021-04-22 18:44:53,513 DEBUG   SenderThread:15848 [sender.py:send():160] send: summary
+2021-04-22 18:44:53,514 INFO    SenderThread:15848 [sender.py:_save_file():781] saving file wandb-summary.json with policy end
+2021-04-22 18:44:53,515 DEBUG   SenderThread:15848 [sender.py:send():160] send: history
+2021-04-22 18:44:53,515 DEBUG   SenderThread:15848 [sender.py:send():160] send: summary
+2021-04-22 18:44:53,516 INFO    SenderThread:15848 [sender.py:_save_file():781] saving file wandb-summary.json with policy end
+2021-04-22 18:44:53,516 DEBUG   SenderThread:15848 [sender.py:send():160] send: history
+2021-04-22 18:44:53,516 DEBUG   SenderThread:15848 [sender.py:send():160] send: summary
+2021-04-22 18:44:53,517 INFO    SenderThread:15848 [sender.py:_save_file():781] saving file wandb-summary.json with policy end
+2021-04-22 18:44:56,855 WARNING MainThread:15848 [internal.py:is_dead():344] Internal process exiting, parent pid 8108 disappeared
+2021-04-22 18:44:56,855 ERROR   MainThread:15848 [internal.py:wandb_internal():142] Internal process shutdown.
+2021-04-22 18:44:57,515 INFO    WriterThread:15848 [datastore.py:close():258] close: C:\Users\97101\Desktop\Experiment\Experiment\fedml_api\standalone\fedavg\wandb\run-20210422_184446-ozyz3bm1\run-ozyz3bm1.wandb
+2021-04-22 18:44:57,515 INFO    HandlerThread:15848 [handler.py:finish():624] shutting down handler
+2021-04-22 18:44:57,518 INFO    SenderThread:15848 [sender.py:finish():884] shutting down sender
+2021-04-22 18:44:59,424 INFO    MainThread:15848 [internal.py:handle_exit():78] Internal process exited
